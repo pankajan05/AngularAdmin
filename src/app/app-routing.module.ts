@@ -4,6 +4,7 @@ import {AddProductComponent} from './products/add-product/add-product.component'
 import {HomeComponent} from './home/home.component';
 import {ProductsComponent} from './products/products.component';
 import {AddCategoryComponent} from './add-category/add-category.component';
+import {LoginComponent} from './login/login.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'product', component: ProductsComponent},
   {path: 'product/add', component: AddProductComponent},
   {path: 'product/edit', component: AddProductComponent},
-  {path: 'addCategory', component: AddCategoryComponent}
+  {path: 'addCategory', component: AddCategoryComponent},
+  {path: 'login', component: LoginComponent}
 ];
 
 
